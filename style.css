@@ -3,3 +3,50 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+/* header部分 */
+header {
+  height: 50px;
+  background-color: #FF9A4B;
+}
+
+/* main部分 */
+
+main {
+  margin: 50px auto;
+}
+
+.main-box {
+  width: 960px;
+  display: flex;
+}
+
+.main-item {
+  height: 300px;
+  background-color: #EEEEEE;
+}
+
+.item-namber {
+  background-color: #FF9A4B;
+}
+
+.main-visual {
+  height: 150px;
+  background-image: url(img/flow01.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.main-title {
+  margin-top: 15px;
+}
+
+.p {
+  margin-top: 5px;
+}
+
+/* footer部分 */
+footer {
+  height: 50px;
+  background-color: #AAAAAA;
+}
